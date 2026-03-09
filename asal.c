@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	
+
 	int ilkSayi, sonSayi, i, j;
 	
 	printf("ilk sayi girin:");
