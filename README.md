@@ -1,4 +1,4 @@
-# Kullanıcı Kayıt ve Giriş Sistemi (C)
+# Kullanıcı Kayıt ve Yazdırma Sistemi (C)
 
 Bu projede Linked List yapısı kullanılarak dinamik bir öğrenci not sistemi oluşturulmuştur.
 
