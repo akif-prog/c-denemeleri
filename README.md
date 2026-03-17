@@ -3,10 +3,10 @@
 Bu projede Linked List yapısı kullanılarak dinamik bir öğrenci not sistemi oluşturulmuştur.
 
 Özellikler:
-- Kullanıcı kayıt
-- Giriş kontrolü
-- Dosyaya yazma/okuma
+- Dinamik Veri Yapısı
+- Öğrenci Ekleme
+- Listeleme
 
 Kullanılan konular:
 - Struct
-- Dosya işlemleri
+- Bellek Yönetimi
