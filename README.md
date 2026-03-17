@@ -10,3 +10,4 @@ Bu projede Linked List yapısı kullanılarak dinamik bir öğrenci not sistemi 
 Kullanılan konular:
 - Struct
 - Bellek Yönetimi
+- Linked List
