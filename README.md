@@ -1,5 +1,12 @@
-# c denemeleri
+# Kullanıcı Kayıt ve Giriş Sistemi (C)
 
-C Dili Öğrenme Planı - 18. Gün Projesi"
+Bu projede Linked List yapısı kullanılarak dinamik bir öğrenci not sistemi oluşturulmuştur.
 
-"Bu projede Linked List yapısı kullanılarak dinamik bir öğrenci not sistemi oluşturulmuştur.
+Özellikler:
+- Kullanıcı kayıt
+- Giriş kontrolü
+- Dosyaya yazma/okuma
+
+Kullanılan konular:
+- Struct
+- Dosya işlemleri
