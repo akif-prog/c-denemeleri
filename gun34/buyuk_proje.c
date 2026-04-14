@@ -30,7 +30,7 @@ struct node
     struct node *next;
 };
 
-struct node *ogrenciEkle(struct node *head, char *isim){
+struct node *basaEkle(struct node *head, char *isim){
     
     struct node *yeni = malloc(sizeof(struct node));
 
@@ -40,17 +40,58 @@ struct node *ogrenciEkle(struct node *head, char *isim){
     return yeni;
 }
 
+struct node *arayaEkle(struct node *head, char *isim){
+
+    //bu fonksiyonda başa veya sona ekleme yapılmasın
+    
+    //mesela toplam 5 satır var diyelim ve biz 2. satırdan sonra ekleme yapıcaz 
+
+    int satir;
+    
+
+    printf("hangi satirdan sonra ekleme yapmak istiyorsun: ");
+    scanf("%d", satir);
+
+
+    struct node *yeni = malloc(sizeof(struct node));
+
+    while ()
+    {
+        /* code */
+    }
+    
+
+    strcpy(yeni->kullanici, isim);
+    yeni->next = 
+}
+
+struct node *sonaEkle(struct node *head, char *isim){
+
+    struct node *yeni = malloc(sizeof(struct node));
+
+    struct node *temp = head;
+
+    while (temp != NULL)
+    {
+        temp = temp->next;
+    }
+    
+    strcpy(yeni->kullanici, isim);
+    yeni->next = NULL;
+
+}
+
 void yazdir(struct node *head){
 
     struct node *temp = head;
 
-    int i = 1;
+    int satir = 1;
 
     while (temp != NULL)
     {
-        printf("%d. %s\n", i, temp->kullanici);
+        printf("%d. %s\n", satir, temp->kullanici);
         temp = temp->next;
-        i++;
+        satir++;
     }
     
 }
@@ -68,15 +109,45 @@ int main()
 {
     struct node *head = NULL;
 
-    head = ogrenciEkle(head, "Ali");
-    head = ogrenciEkle(head, "Ahmet");
-    head = ogrenciEkle(head, "Ayşe");
+    head = basaEkle(head, "Ali");
+    head = basaEkle(head, "Ahmet");
+    head = basaEkle(head, "Ayşe");
 
     dosyayaYaz("Ali");
     dosyayaYaz("Ahmet");
     dosyayaYaz("Ayşe");
 
     yazdir(head);
+
+    int devam = 1;
+    int secim;
+    int satir;
+
+    while (devam)
+    {
+        printf("islem secin: \n 1.satir ekle \n 2.satir sil \n 0. cikis \n => ");
+
+
+        switch (secim)
+        {
+        case 1:
+            /* code */
+            break;
+        case 2:
+            printf("hangi satiri silmek istersin: ");
+            scanf("%d", &satir);
+
+            if(strcmp())
+            break;
+        case 0:
+            devam = 0;
+            break;
+        default:
+            printf("gecersiz secim\n");
+            break;
+        }
+    }
+    
 
     return 0;
 }
