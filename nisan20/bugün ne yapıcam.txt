@@ -1,0 +1,14 @@
+
+1. strlen fonksiyonunu kendin yaz
+2. strcpy mantığını manuel yazmayı dene
+3. strcmp benzeri karşılaştırma fonksiyonu yaz
+* String’i pointer ile dolaş (array gibi değil)
+* Küçük testler yap:
+    -uzunluk bul (strlen)
+    -kopyala (strcpy)
+    -karşılaştır (strcmp)
+
+
+
+strlen ne yapar: bir string alır ve onun uzunluğunu hesaplar 
+peki kendim nasıl strlen fonksiyonu yazarım?
